@@ -5,5 +5,6 @@
 <li><strong>2-assembler</strong> - a script that generates the assembly code of a C code and save it in an output file</li><br>
 <li><strong>3-name</strong> - a script that compiles a C file and creates an executable named cisfun</li><br>
 <li><strong>4-puts.c</strong> - a C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line</li><br>
+<li><strong>5-printf.c</strong> - a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line</li></br>
 </ul>
 </p>
