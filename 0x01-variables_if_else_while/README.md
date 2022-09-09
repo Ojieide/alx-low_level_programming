@@ -11,4 +11,5 @@
 <li><b>8-print_base16.c</br> - This program prints all the numbers of base 16 in lowercase, followed by a new line</li>
 <li><b>9-print_comb.c</b> - This program prints all possible combinations of single-digit numbers separated by comma, followed by space</li>
 <li><b>100-print_comb3.c</b> - This program  prints all possible different combinations of two different digits separated by comma, followed by space</li>
+<li><b>101-print_comb4.c</b> - This program  prints all possible different combinations of three different digits separated by comma, followed by space</li>
 </ul>
