@@ -12,4 +12,5 @@
 <li><b>9-print_comb.c</b> - This program prints all possible combinations of single-digit numbers separated by comma, followed by space</li>
 <li><b>100-print_comb3.c</b> - This program  prints all possible different combinations of two different digits separated by comma, followed by space</li>
 <li><b>101-print_comb4.c</b> - This program  prints all possible different combinations of three different digits separated by comma, followed by space</li>
+<li><b>102-print_comb5.c</b> - This program  prints all possible different combinations of two two-digit numbers ranging from 0 - 99 separated by comma, followed by space</li>
 </ul>
