@@ -7,4 +7,5 @@
 <li><b>4-print_alphabt.c</b> - This program prints the alphabet in lowercase except q and e, followed by a new line</li>
 <li><b>5-print_numbers.c</b> - This program prints all single digit numbers of base 10 starting from 0, followed by a new line</li>
 <li><b>6-print_numberz.c</b> - This program prints all single digit numbers of base 10 starting from 0, followed by a new line using putchar only</li>
+<li><b>7-print_tebahpla.c</b> - This program prints the lowercase alphabet in reverse, followed by a new line</li>
 </ul>
