@@ -5,7 +5,7 @@
  * using putchar
  * Return: 0
  */
- 
+
 int main(void)
 {
 int ch;
