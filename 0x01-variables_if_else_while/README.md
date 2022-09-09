@@ -1,4 +1,5 @@
 <h1>0x01. C - Variables, if, else, while</h1>
 <ul>
-<li><em>0-positive_or_negative.c</em> - This program will assign a random number to the variable n each time it is executed and prints whether the number stored in the variable is positive or negative</li>
+<li><b>0-positive_or_negative.c</b> - This program prints whether the number stored in the variable n is positive, zero or negative</li>
+<li><b>1-last_digit.c</b> - This program prints the last digit of the number stored in the variable n</li>
 </ul>
