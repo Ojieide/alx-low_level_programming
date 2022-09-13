@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * main - print putchar
  * _putchar: send formatted output to screen
  * return: 0 (Success)
  */
