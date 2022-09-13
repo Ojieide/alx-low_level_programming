@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - print putchar
- * _putchar: send formatted output to screen
- * return: 0 (Success)
+ * main - print putchar on the screen
+ * return: always 0 
  */
 int main(void)
 {
