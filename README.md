@@ -50,3 +50,12 @@
 <li>What are the gcc flags -Wall -Werror -pedantic -Wextra -std=gnu89</li>
 <li>What are header files and how to to use them with #include</li>
 </ul>
+
+<h1>0x03. C - Debugging</h1>
+
+<h2>Learning Objectives</h2>
+<ul>
+<li>What is debugging</li>
+<li>What are some methods of debugging manually</li>
+<li>How to read the error messages</li>
+</ul>
