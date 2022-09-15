@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the numbers from 1 to 100, followed by a new line
- * prints Fizz for multiples of three and Buzz for the multiples of five
- * prints FizzBuzz for multiples of three and five
+ * main - prints the numbers from 1 to 100, multiples of 3 Fizz, 
+ * multiples of 5 Buzz, multiples of 3 and 5 FizzBzz 
+ * @void: no arguement for the function
  *
  * Return: On success 0
  */
