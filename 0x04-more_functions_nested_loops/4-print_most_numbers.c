@@ -7,7 +7,7 @@
  *
  * @void: no argument is needed for calling the function
  *
- * Return: On success 0.
+ * Return: nothing.
  */
 void print_most_numbers(void)
 {
@@ -19,7 +19,7 @@ void print_most_numbers(void)
 		{
 			continue;
 		}
-		putchar(n);
+		_putchar(n);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
