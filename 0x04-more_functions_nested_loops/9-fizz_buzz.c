@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints the numbers from 1 to 100, multiples of 3 Fizz, 
- * multiples of 5 Buzz, multiples of 3 and 5 FizzBzz 
+ * main - prints the numbers from 1 to 100, multiples of 3 Fizz,
+ * multiples of 5 Buzz, multiples of 3 and 5 FizzBzz
  * @void: no arguement for the function
  *
  * Return: On success 0
