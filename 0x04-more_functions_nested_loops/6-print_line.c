@@ -4,7 +4,7 @@
 /**
  * print_line - draws a straight line in the terminal
  *
- * @void: no arguement for the function
+ * @n: parameter of the function
  *
  * Return: nothing.
  */
