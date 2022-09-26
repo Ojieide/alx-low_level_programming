@@ -92,3 +92,12 @@
 <li>How to use strings and how to manipulate them</li>
 <li>Scope of variables</li>
 </ul>
+
+<h1>0x07. C - Even more pointers, arrays and strings</h1>
+
+<h2>Learning Objectives</h2>
+<ul>
+<li>What are pointers to pointers and how to use them</li>
+<li>What are multidimensional arrays and how to use them</li>
+<li>What are the most common C standard library functions to manipulate strings</li>
+</ul>
