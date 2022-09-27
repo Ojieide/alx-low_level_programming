@@ -8,4 +8,6 @@
 <li><b>5-strstr.c</b> - a function that locates a substring</li>
 <li><b>7-print_chessboard.c</b> - a function that prints the chessboard</li>
 <li><b>8-print_diagsums.c</b> - a function that prints the sum of the two diagonals of a square matrix of integers</li>
+<li><b>100-set_string.c</b> - a function that sets the value of a pointer to a char</li>
+<li><b>101-crackme_password</b> - Create a file that contains the password for the crackme2 executable</li>
 </ul>
