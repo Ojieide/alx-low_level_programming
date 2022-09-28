@@ -2,7 +2,7 @@
 
 /**
  * strlen_wildcmp - returns the length of a string,
- *					ignoring wildcard characters
+ *		ignoring wildcard characters
  * @str: the string to be measured.
  *
  * Return: the length of a string.
@@ -38,12 +38,12 @@ void find_wildcmp(char **str)
 
 /**
  * str_wildcmp - checks if a string matches another string
- *				potentially containing wildcards
+ *		potentially containing wildcards
  * @str1: the first string to be checked
  * @str2: the second string to be checked
  *
  * Return: If str1 and str2 are identical - a pointer to the null byte
- *											located at the end of str2.
+ *					located at the end of str2.
  *         Otherwise - a pointer to the first unmatched character in str2.
  */
 char *str_wildcmp(char *str1, char *str2)
@@ -64,8 +64,8 @@ char *str_wildcmp(char *str1, char *str2)
 }
 
 /**
- * wildcmp - compares two strings and returns 1 
- *			if the strings can be considered identical, otherwise return 0
+ * wildcmp - compares two strings and returns 1
+ *	if the strings can be considered identical, otherwise return 0
  * @s1: first string to be compared.
  * @s2: second string to be compared - can contain the special character *
  *
