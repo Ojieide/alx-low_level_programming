@@ -111,3 +111,11 @@
 <li>In what situations you should implement recursion</li>
 <li>In what situations you shouldn’t implement recursion</li>
 </ul>
+
+<h1>0x08. C - Recursion</h1>
+
+<h2>Learning Objectives</h2>
+<ul>
+<li>What is a static library, how does it work, how to create one, and how to use it</li>
+<li>Basic usage of ar, ranlib, nm</li>
+</ul>
