@@ -1,7 +1,7 @@
 <h1>0x09. C - Static libraries</h1>
 <ul>
 <li><b>libmy.a, main.h</b> - Create the static library libmy.a containing all the functions listed below</li>
-<ol type="i">
+<ol type="1">
 <li>int _putchar(char c);</li>
 <li>int _islower(int c);</li>
 <li>int _isalpha(int c);</li>
