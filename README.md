@@ -112,7 +112,7 @@
 <li>In what situations you shouldn’t implement recursion</li>
 </ul>
 
-<h1>0x08. C - Recursion</h1>
+<h1>0x09. C - Static libraries</h1>
 
 <h2>Learning Objectives</h2>
 <ul>
