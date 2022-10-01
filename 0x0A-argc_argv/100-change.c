@@ -3,7 +3,7 @@
 
 /**
  * main - prints the minimum number of coins
- *	to make change for an amount of money  
+ *	to make change for an amount of money
  * @argc: arguement counter
  * @argv: arguement vector
  *
