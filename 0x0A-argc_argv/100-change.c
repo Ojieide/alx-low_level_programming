@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * main - prints the minimum number of j 
- *		to make change for an amount of money  
+ * main - prints the minimum number of coins
+ *	to make change for an amount of money  
  * @argc: arguement counter
  * @argv: arguement vector
  *
