@@ -128,3 +128,13 @@
 <li>What are two prototypes of main that you know of, and in which case do you use one or the other</li>
 <li>How to use __attribute__((unused)) or (void) to compile functions with unused variables or parameters</li>
 </ul>
+
+<h1>00x0B. C - malloc, free</h1>
+
+<h2>Learning Objectives</h2>
+<ul>
+<li>What is the difference between automatic and dynamic allocation</li>
+<li>What is malloc and free and how to use them</li>
+<li>Why and when use malloc</li>
+<li>How to use valgrind to check for memory leak</li>
+</ul>
