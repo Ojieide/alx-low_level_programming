@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -11,21 +12,23 @@
 char *_strdup(char *str)
 {
 	char *dup;
-	unsigned int a = 0;
-	unsigned int b = 0;
+	int i, j = 0;
 
 	if (str == NULL)
 		return (NULL);
-	while (str[a] != '\0')
-		a += 1;
-	a += 1;
-	dup = malloc(a * sizeof(*dup));
+
+	for (i = 0; str[i]; i++)
+		j++;
+
+	dup = malloc(sizeof(char) * (j + 1));
+
 	if (dup == NULL)
 		return (NULL);
-	while (b < a)
-	{
-		dup[b] = str[b];
-		b += 1;
-	}
+
+	for (i = 0; str[i]; i++)
+		dup[i] = str[i];
+
+	dup[j] = '\0';
+
 	return (dup);
 }
