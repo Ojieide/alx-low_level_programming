@@ -24,8 +24,8 @@ void ch_free_grid(char **grid, unsigned int height)
  * strtow - splits a string into words
  * @str: string splited into words
  *
- * Return: On success a pointer to an array of strings, 
- *NULL if str == NULL or str == "".
+ * Return: On success a pointer to an array of strings,
+ *	NULL if str == NULL or str == "".
  */
 
 char **strtow(char *str)
