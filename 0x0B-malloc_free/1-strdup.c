@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -9,7 +8,6 @@
  * Return: On success a pointer to the duplicated string,
  *	NULL if insufficient memory was available
  */
-
 char *_strdup(char *str)
 {
 	char *dup;
