@@ -138,3 +138,11 @@
 <li>Why and when use malloc</li>
 <li>How to use valgrind to check for memory leak</li>
 </ul>
+
+<h1>0x0C. C - More malloc, free</h1>
+
+<h2>Learning Objectives</h2>
+<ul>
+<li>How to use the exit function</li>
+<li>What are the functions calloc and realloc from the standard library and how to use them</li>
+</ul>
