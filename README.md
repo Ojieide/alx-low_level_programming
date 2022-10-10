@@ -155,3 +155,11 @@
 <li>What are the most common predefined macros</li>
 <li>How to include guard your header files</li>
 </ul>
+
+<h1>0x0E. C - Structures, typedef</h1>
+
+<h2>Learning Objectives</h2>
+<ul>
+<li>What are structures, when, why and how to use them</li>
+<li>How to use typedef</li>
+</ul>
