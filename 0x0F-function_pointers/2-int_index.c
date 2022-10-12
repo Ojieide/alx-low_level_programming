@@ -7,7 +7,7 @@
  * @cmp: A pointer to the function
  *
  * Return: On success - the index of the first element for which
- *                     	the cmp function does not return 0.
+ *			the cmp function does not return 0.
  *         If no element matches, return -1.
  */
 int int_index(int *array, int size, int (*cmp)(int))
