@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * main - prints the result of simple operations
- * @argc: the number of arguments supplied to the program
- * @argv: an array of pointers to the arguments
+ * main - prints the result of simple operations.
+ * @argc: number of arguments supplied to the program
+ * @argv: array of pointers to the arguments
  *
- * Return: Always 0.
+ * Return: On success 0.
  */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
@@ -24,13 +24,14 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	op = argv[2];
 	num2 = atoi(argv[3]);
 
-	if (get_op_func(i) == NULL || op[1] != '\0')
+	if (get_op_func(op) == NULL || op[1] != '\0')
 	{
 		printf("Error\n");
 		exit(99);
 	}
 
-	if ((*op == '/' && num2 == 0) || (*op == '%' && num2 == 0))
+	if ((*op == '/' && num2 == 0) ||
+	    (*op == '%' && num2 == 0))
 	{
 		printf("Error\n");
 		exit(100);

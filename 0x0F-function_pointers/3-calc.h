@@ -3,8 +3,8 @@
 
 /**
  * struct op - a struct op
- * @op: the operator
- * @f: the associated function
+ * @op: operator
+ * @f: associated function
  */
 typedef struct op
 {
