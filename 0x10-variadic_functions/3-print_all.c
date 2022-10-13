@@ -6,6 +6,7 @@
  * print_char - print char type element from va_list
  * @ptr: va_list passed to function
  */
+
 void print_char(va_list ptr)
 {
 	printf("%c", va_arg(ptr, int));
@@ -15,6 +16,7 @@ void print_char(va_list ptr)
  * print_string - print string element from va_list
  * @ptr: va_list passed to function
  */
+
 void print_string(va_list ptr)
 {
 	char *str;
@@ -29,6 +31,7 @@ void print_string(va_list ptr)
  * print_float - print float type element from va_list
  * @ptr: va_list passed to function
  */
+
 void print_float(va_list ptr)
 {
 	printf("%f", va_arg(ptr, double));
@@ -38,6 +41,7 @@ void print_float(va_list ptr)
  * print_int - print int type element from va_list
  * @ptr: va_list passed to function
  */
+
 void print_int(va_list ptr)
 {
 	printf("%d", va_arg(ptr, int));
@@ -47,6 +51,7 @@ void print_int(va_list ptr)
  * print_all - prints anything
  * @format: list of types of arguments passed to the function
  */
+
 void print_all(const char * const format, ...)
 {
 	unsigned int i, j;
