@@ -14,7 +14,7 @@ void print_int(va_list ptr);
 
 /**
  * struct type - a new struct type defining a type
- * @op: data type argument
+ * @str: data type argument
  * @f: The associated function
  */
 
