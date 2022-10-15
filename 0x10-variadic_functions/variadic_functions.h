@@ -12,9 +12,15 @@ void print_string(va_list ptr);
 void print_float(va_list ptr);
 void print_int(va_list ptr);
 
+/**
+ * struct type - a new struct type defining a type
+ * @op: data type argument
+ * @f: The associated function
+ */
+
 typedef struct type
 {
-	char *type;
+	char *str;
 	void (*f)();
 } type_t;
 
