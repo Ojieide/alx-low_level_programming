@@ -181,3 +181,10 @@
 <li>How to use va_start, va_arg and va_end macros</li>
 <li>Why and how to use the const type qualifier</li>
 </ul>
+
+<h1>0x11. C - printf</h1>
+
+<h2>Learning Objectives</h2>
+<ul>
+<li>Write your own printf function</li>
+</ul>
