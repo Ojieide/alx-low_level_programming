@@ -196,3 +196,10 @@
 <li>When and why using linked lists vs arrays</li>
 <li>How to build and use linked lists</li>
 </ul>
+
+<h1>0x13. C - More singly linked lists</h1>
+
+<h2>Learning Objectives</h2>
+<ul>
+<li>How to use linked lists</li>
+</ul>
