@@ -28,8 +28,8 @@ int advanced_binary_recursion(int *array, size_t x, size_t y, int value)
 	if (array[a] == value && (a == x || array[a - 1] != value))
 		return (a);
 	if (array[a] >= value)
-		return (advanced_binary_recursive(array, x, a, value));
-	return (advanced_binary_recursive(array, a + 1, y, value));
+		return (advanced_binary_recursion(array, x, a, value));
+	return (advanced_binary_recursion(array, a + 1, y, value));
 }
 
 /**
