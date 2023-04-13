@@ -2,11 +2,11 @@
 
 /**
   * advanced_binary_recursion - Searches recursively for a value in a sorted
-  *                             subarray of integers using the Binary search
+  *                             array of integers using the Binary search
   *                             algorithm.
   * @array: Pointer to the first element of the subrray to search in.
   * @start: Index of the start of the search in the subarray.
-  * @end: The ending index of the [sub]array to search.
+  * @end: Index of the end of the search in the subarray.
   * @value: Value to search for.
   *
   * Return: -1, If the value is not present in subarray or if subarray is NULL.
