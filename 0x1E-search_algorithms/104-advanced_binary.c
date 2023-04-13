@@ -5,31 +5,31 @@
   *                             subarray of integers using the Binary search
   *                             algorithm.
   * @array: Pointer to the first element of the subrray to search in.
-  * @x: Index of the start of the search in the subarray.
-  * @y: The ending index of the [sub]array to search.
+  * @start: Index of the start of the search in the subarray.
+  * @end: The ending index of the [sub]array to search.
   * @value: Value to search for.
   *
   * Return: -1, If the value is not present in subarray or if subarray is NULL.
   *         Otherwise, the index where the value is located.
   */
-int advanced_binary_recursion(int *array, size_t x, size_t y, int value)
+int advanced_binary_recursion(int *array, size_t start, size_t end, int value)
 {
 	size_t a;
 
-	if (y < x)
+	if (end < start)
 		return (-1);
 
 	printf("Searching in array: ");
-	for (a = x; a < y; a++)
+	for (a = start; a < end; a++)
 		printf("%d, ", array[a]);
 	printf("%d\n", array[a]);
 
-	a = x + (y - x) / 2;
-	if (array[a] == value && (a == x || array[a - 1] != value))
+	a = start + (end - start) / 2;
+	if (array[a] == value && (a == start || array[a - 1] != value))
 		return (a);
 	if (array[a] >= value)
-		return (advanced_binary_recursion(array, x, a, value));
-	return (advanced_binary_recursion(array, a + 1, y, value));
+		return (advanced_binary_recursion(array, start, a, value));
+	return (advanced_binary_recursion(array, a + 1, end, value));
 }
 
 /**
