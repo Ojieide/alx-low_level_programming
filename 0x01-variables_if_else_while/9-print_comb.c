@@ -8,14 +8,19 @@
  */
 int main(void)
 {
-	int i = '0';
+	unsigned long int i = '0';
 
-	while (i <= '9')
+	while (i <= '8')
 	{
 		putchar(i);
 		putchar(',');
 		putchar(' ');
 		i++;
+	}
+	while (i == '9')
+	{
+		putchar(i);
+		i--;
 	}
 	putchar('\n');
 	return (0);
