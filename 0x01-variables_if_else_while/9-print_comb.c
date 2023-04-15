@@ -10,17 +10,12 @@ int main(void)
 {
 	unsigned long int i = '0';
 
-	while (i <= '8')
+	while (i <= '9')
 	{
 		putchar(i);
 		putchar(',');
 		putchar(' ');
 		i++;
-	}
-	while (i == '9')
-	{
-		putchar(i);
-		i--;
 	}
 	putchar('\n');
 	return (0);
