@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 /**
  * main - Prints all possible combinations of
@@ -8,15 +9,18 @@
  */
 int main(void)
 {
-	unsigned long int i = '0';
+	int i = '0';
 
-	while (i <= '9')
+	while (i <= '8')
 	{
 		putchar(i);
 		putchar(',');
 		putchar(' ');
 		i++;
 	}
-	putchar('\n');
+	if (i == '9')
+	{
+		putchar(i);
+	}
 	return (0);
 }
