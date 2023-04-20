@@ -8,6 +8,7 @@
 int main(void)
 {
 	int x, y, z;
+
 	x = 0;
 
 	while (x < 100)
@@ -21,7 +22,6 @@ int main(void)
 		{
 			putchar(z + '0');
 			putchar(y + '0');
-			
 			if (x < 89)
 			{
 				putchar(',');
