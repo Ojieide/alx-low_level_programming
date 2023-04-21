@@ -7,33 +7,27 @@
  */
 int main(void)
 {
-	int w, x, y, z;
+	int i, j, k;
 
-	w = 0;
-
-	while (w < 1000)
+	for (i = 0; i < 8; i++)
 	{
-		/* Single digit */
-		x = w % 10;
-		/* Double digit */
-		y = (w / 10) % 10;
-		/* Triple digits */
-		z = w / 100;
-
-		if (z < y && y < x)
+		for (j = i + 1; j < 9; j++)
 		{
-			putchar(z + '0');
-			putchar(y + '0');
-			putchar(x + '0');
-			if (w < 789)
+			for (k = j + 1; k < 10; k++)
 			{
+				putchar((i % 10) + '0');
+				putchar((j % 10) + '0');
+				putchar((k % 10) + '0');
+				
+				if (i == 7 && j == 8 && k == 9)
+				{
+					continue;
+				}
 				putchar(',');
 				putchar(' ');
 			}
 		}
-		w++;
 	}
 	putchar('\n');
 	return (0);
 }
-
