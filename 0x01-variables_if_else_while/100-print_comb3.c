@@ -7,29 +7,25 @@
  */
 int main(void)
 {
-	int x, y, z;
+	int i, j;
 
-	x = 0;
-
-	while (x < 100)
+	for (i = 0; i < 9; i++)
 	{
-		/* Single digit */
-		y = x % 10;
-		/* Double digit */
-		z = x / 10;
-
-		if (z < y)
+		for (j = i + 1; j < 10; j++)
 		{
-			putchar(z + '0');
-			putchar(y + '0');
-			if (x < 89)
+			putchar((i % 10) + '0');
+			putchar((j % 10) + '0');
+
+			if (i == 8 && j == 9)
 			{
-				putchar(',');
-				putchar(' ');
+				continue;
 			}
+			putchar(',');
+			putchar(' ');
 		}
-		x++;
 	}
 	putchar('\n');
 	return (0);
 }
+
+
