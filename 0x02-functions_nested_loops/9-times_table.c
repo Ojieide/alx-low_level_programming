@@ -19,8 +19,8 @@ void times_table(void)
 		{
 			mul = i * j;
 
-			_putchar(' ');
 			_putchar(',');
+			_putchar(' ');
 
 			if (mul > 9)
 			{
