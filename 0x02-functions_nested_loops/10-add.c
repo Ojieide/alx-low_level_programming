@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int add - Function that adds two integers and returns the result.
+ * add - Function that adds two integers and returns the result.
  * @x: first integer.
  * @y: second integer.
  *
