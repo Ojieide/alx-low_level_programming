@@ -5,7 +5,7 @@
  * @x: first integer.
  * @y: second integer.
  *
- * Return: result.
+ * Return: result(value of x+y).
  */
 int add(int x, int y)
 {
