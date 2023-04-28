@@ -11,9 +11,5 @@ int add(int x, int y)
 {
 	int res = x + y;
 
-	if ((x >= 0 && y >= 0) || (x <= 0 && y <= 0 || x < 0 && y > 0))
-	{
-		return (res);
-	}
-	return (0);
+	return(res);
 }
