@@ -1,13 +1,19 @@
 #include "main.h"
 
 /**
- * add - adds two integers and returns the result
- * @num1: first operand
- * @num2: second operand
+ * int add - Function that adds two integers and returns the result.
+ * @x: first integer.
+ * @y: second integer.
  *
- * Return: result of the addition
+ * Return: result.
  */
-int add(int num1, int num2)
+int add(int x, int y)
 {
-	return (num1 + num2);
+	int res = x + y;
+
+	if (x > 0 && y > 0)
+	{
+		return (res);
+	}
+	return (0);
 }
