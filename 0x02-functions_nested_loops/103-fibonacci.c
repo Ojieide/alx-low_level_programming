@@ -8,7 +8,8 @@
  */
 int main(void)
 {
-	unsigned long int num1 = 0, num2 = 1, sum, even_sum;
+	unsigned long int num1 = 0, num2 = 1, sum;
+	float even_sum;
 
 	while (1)
 	{
@@ -25,6 +26,6 @@ int main(void)
 			even_sum = sum + even_sum;
 		}
 	}
-	printf("%lu\n", even_sum);
+	printf("%.0f\n", even_sum);
 	return (0);
 }
