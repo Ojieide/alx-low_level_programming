@@ -2,24 +2,28 @@
 #include "main.h"
 
 /**
- * print_most_numbers - prints the numbers, from 0 to 9, followed by a new line
- * excluding 2 and 4
- *
- * @void: no argument is needed for calling the function
+ * print_most_numbers - Function that prints the numbers
+ *			from 0 to 9 except 2 and 4
  *
  * Return: nothing.
  */
 void print_most_numbers(void)
 {
-	int n;
+	int i = '0';
 
-	for (n = '0'; n <= '9'; n++)
+	while (i <= '9')
 	{
-		if ((n == '2') || (n == '4'))
+		if (i == '2' || i == '4')
 		{
-			continue;
+			i++;
 		}
-		_putchar(n);
+		else
+		{
+			_putchar(i);
+			i++;
+		}
 	}
 	_putchar('\n');
 }
+
+
