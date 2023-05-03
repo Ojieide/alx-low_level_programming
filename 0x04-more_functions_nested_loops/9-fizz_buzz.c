@@ -32,7 +32,7 @@ int main(void)
 		}
 		i++;
 
-		if (n == 100)
+		if (i == 100)
 		{
 			continue;
 		}
