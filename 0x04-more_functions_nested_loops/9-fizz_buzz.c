@@ -31,6 +31,11 @@ int main(void)
 			printf("%d ", i);
 		}
 		i++;
+
+		if (n == 100)
+		{
+			continue;
+		}
 	}
 	printf("\n");
 
